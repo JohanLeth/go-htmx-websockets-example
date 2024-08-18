@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/coder/websocket"
 	"github.com/sigrdrifa/go-htmx-websockets-example/internal/hardware"
-	"nhooyr.io/websocket"
 )
 
 type server struct {
